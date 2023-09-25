@@ -1,0 +1,34 @@
+{
+  "name": "dhenfie/event-dispatcher",
+  "description": "Simple PHP Event Dispatcher",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Dhenfie\\EventDispatcher\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "dhenfie",
+      "email": "fajarsusilo1600@gmail.com",
+      "homepage": "https://susilo.web.id"
+    }
+  ],
+  "keywords": [
+    "PHP Event Dispatcher",
+    "Symfony Event Dispatcher",
+    "Event Listener",
+    "Laravel event dispatcher"
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "@stable",
+    "dhenfie/accessible": "@stable"
+  }
+}
